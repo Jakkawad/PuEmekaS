@@ -8,6 +8,8 @@
 
 import UIKit
 import GoogleMaps
+import UserNotifications
+import AVFoundation
 
 class ViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegate {
 
@@ -24,7 +26,7 @@ class ViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDel
         mapView.animate(to: camera)
         
         //Finally stop updating location otherwise it will come again and again in this delegate
-        self.locationManager.stopUpdatingLocation()
+//        self.locationManager.stopUpdatingLocation()
         
     }
     
@@ -70,6 +72,20 @@ class ViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDel
         
     }
     
+    // MARK: Notification
+    func checkNotification() {
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound], completionHandler: { (granted, error) in
+            if granted {
+                print("Notification access granted")
+            } else {
+                print(error?.localizedDescription)
+            }
+        })
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
