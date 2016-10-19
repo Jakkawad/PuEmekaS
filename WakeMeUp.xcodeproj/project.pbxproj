@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61922A2EBBC1C6A8A7908795 /* libPods-WakeMeUp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2C3C83563583EA4B39ABAC /* libPods-WakeMeUp.a */; };
 		84511C131DB74070004DBDD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84511C121DB74070004DBDD4 /* AppDelegate.swift */; };
 		84511C151DB74070004DBDD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84511C141DB74070004DBDD4 /* ViewController.swift */; };
 		84511C181DB74070004DBDD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84511C161DB74070004DBDD4 /* Main.storyboard */; };
 		84511C1A1DB74070004DBDD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84511C191DB74070004DBDD4 /* Assets.xcassets */; };
 		84511C1D1DB74070004DBDD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84511C1B1DB74070004DBDD4 /* LaunchScreen.storyboard */; };
 		84511C281DB74070004DBDD4 /* WakeMeUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84511C271DB74070004DBDD4 /* WakeMeUpTests.swift */; };
+		84511C331DB74082004DBDD4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 84511C321DB74082004DBDD4 /* Podfile */; };
+		84511C391DB76F34004DBDD4 /* InfoMarker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84511C381DB76F34004DBDD4 /* InfoMarker.xib */; };
+		84511C3B1DB76F70004DBDD4 /* InfoMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84511C3A1DB76F70004DBDD4 /* InfoMarker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68B401740C4F94D607CDE707 /* Pods-WakeMeUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WakeMeUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WakeMeUp/Pods-WakeMeUp.debug.xcconfig"; sourceTree = "<group>"; };
 		84511C0F1DB74070004DBDD4 /* WakeMeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeMeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84511C121DB74070004DBDD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84511C141DB74070004DBDD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,11 @@
 		84511C231DB74070004DBDD4 /* WakeMeUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeMeUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84511C271DB74070004DBDD4 /* WakeMeUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMeUpTests.swift; sourceTree = "<group>"; };
 		84511C291DB74070004DBDD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84511C321DB74082004DBDD4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		84511C381DB76F34004DBDD4 /* InfoMarker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoMarker.xib; sourceTree = "<group>"; };
+		84511C3A1DB76F70004DBDD4 /* InfoMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoMarker.swift; sourceTree = "<group>"; };
+		919A6EE7C21C42E6F09A2BC4 /* Pods-WakeMeUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WakeMeUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WakeMeUp/Pods-WakeMeUp.release.xcconfig"; sourceTree = "<group>"; };
+		FD2C3C83563583EA4B39ABAC /* libPods-WakeMeUp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WakeMeUp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61922A2EBBC1C6A8A7908795 /* libPods-WakeMeUp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +70,12 @@
 		84511C061DB74070004DBDD4 = {
 			isa = PBXGroup;
 			children = (
+				84511C321DB74082004DBDD4 /* Podfile */,
 				84511C111DB74070004DBDD4 /* WakeMeUp */,
 				84511C261DB74070004DBDD4 /* WakeMeUpTests */,
 				84511C101DB74070004DBDD4 /* Products */,
+				D0D36AFA921D646F299224B7 /* Pods */,
+				C7732816188C9D830B68F6DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +94,8 @@
 				84511C121DB74070004DBDD4 /* AppDelegate.swift */,
 				84511C141DB74070004DBDD4 /* ViewController.swift */,
 				84511C161DB74070004DBDD4 /* Main.storyboard */,
+				84511C3A1DB76F70004DBDD4 /* InfoMarker.swift */,
+				84511C381DB76F34004DBDD4 /* InfoMarker.xib */,
 				84511C191DB74070004DBDD4 /* Assets.xcassets */,
 				84511C1B1DB74070004DBDD4 /* LaunchScreen.storyboard */,
 				84511C1E1DB74070004DBDD4 /* Info.plist */,
@@ -96,6 +112,23 @@
 			path = WakeMeUpTests;
 			sourceTree = "<group>";
 		};
+		C7732816188C9D830B68F6DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD2C3C83563583EA4B39ABAC /* libPods-WakeMeUp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0D36AFA921D646F299224B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68B401740C4F94D607CDE707 /* Pods-WakeMeUp.debug.xcconfig */,
+				919A6EE7C21C42E6F09A2BC4 /* Pods-WakeMeUp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84511C2C1DB74070004DBDD4 /* Build configuration list for PBXNativeTarget "WakeMeUp" */;
 			buildPhases = (
+				D8D427A1D3550AF47A1262C8 /* Check Pods Manifest.lock */,
 				84511C0B1DB74070004DBDD4 /* Sources */,
 				84511C0C1DB74070004DBDD4 /* Frameworks */,
 				84511C0D1DB74070004DBDD4 /* Resources */,
+				DE1A2B168E1C277D9C3602AA /* Embed Pods Frameworks */,
+				4126417D5A1889306BDD9F8D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +182,7 @@
 				TargetAttributes = {
 					84511C0E1DB74070004DBDD4 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W6X8G863UY;
 						ProvisioningStyle = Automatic;
 					};
 					84511C221DB74070004DBDD4 = {
@@ -181,6 +218,8 @@
 			files = (
 				84511C1D1DB74070004DBDD4 /* LaunchScreen.storyboard in Resources */,
 				84511C1A1DB74070004DBDD4 /* Assets.xcassets in Resources */,
+				84511C391DB76F34004DBDD4 /* InfoMarker.xib in Resources */,
+				84511C331DB74082004DBDD4 /* Podfile in Resources */,
 				84511C181DB74070004DBDD4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +233,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4126417D5A1889306BDD9F8D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WakeMeUp/Pods-WakeMeUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8D427A1D3550AF47A1262C8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE1A2B168E1C277D9C3602AA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WakeMeUp/Pods-WakeMeUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84511C0B1DB74070004DBDD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -201,6 +288,7 @@
 			files = (
 				84511C151DB74070004DBDD4 /* ViewController.swift in Sources */,
 				84511C131DB74070004DBDD4 /* AppDelegate.swift in Sources */,
+				84511C3B1DB76F70004DBDD4 /* InfoMarker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,8 +423,10 @@
 		};
 		84511C2D1DB74070004DBDD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B401740C4F94D607CDE707 /* Pods-WakeMeUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W6X8G863UY;
 				INFOPLIST_FILE = WakeMeUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunny-juof.WakeMeUp";
@@ -347,8 +437,10 @@
 		};
 		84511C2E1DB74070004DBDD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 919A6EE7C21C42E6F09A2BC4 /* Pods-WakeMeUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W6X8G863UY;
 				INFOPLIST_FILE = WakeMeUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunny-juof.WakeMeUp";
@@ -404,6 +496,7 @@
 				84511C2E1DB74070004DBDD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84511C2F1DB74070004DBDD4 /* Build configuration list for PBXNativeTarget "WakeMeUpTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +505,7 @@
 				84511C311DB74070004DBDD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
